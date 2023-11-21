@@ -1,0 +1,22 @@
+{
+  "name": "note_app_node_fs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "add": "node index.js add",
+    "remove": "node index.js remove",
+    "read": "node index.js read",
+    "readOne": "node index.js readOne"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "fs": "^0.0.1-security",
+    "yargs": "^17.7.2"
+  }
+}
